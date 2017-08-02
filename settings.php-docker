@@ -1,0 +1,18 @@
+<?php
+install_password: 5f4dcc3b5aa765d61d8327deb882cf99
+db_cachedir: /tmp
+db_persistent: false
+db_host: localhost
+db_login: none
+db_password: none
+db_database: /web/data/webcalendar.sqlite
+db_type: sqlite3
+readonly: false
+user_inc: user.php
+use_http_auth: false
+single_user: false
+mode: dev
+/* Disable XSS checks which won't work properly when running inside docker */
+disable_referer_check: true
+# end settings.php */
+?>
